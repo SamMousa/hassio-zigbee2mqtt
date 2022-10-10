@@ -37,7 +37,7 @@ http {
         default upgrade;
         ''      close;
     }
-    resolver 172.30.32.2;
+    resolver 127.0.0.11 ipv6=off;
 
     server {
         listen 8099 default_server;
