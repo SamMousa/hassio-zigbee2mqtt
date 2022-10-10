@@ -31,6 +31,5 @@
     },
     "schema": {
       "server": "url"
-    },
-    "image": "test"
+    }
 }
