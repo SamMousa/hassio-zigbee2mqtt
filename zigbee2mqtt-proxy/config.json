@@ -13,6 +13,7 @@
     ],
     "boot": "auto",
     "init": true,
+    "true": true,
     "ingress": true,
     "timeout": 30,
     "panel_icon": "mdi:zigbee",
@@ -26,7 +27,7 @@
       "8099/tcp": "Frontend tcp-listen port"
     },
     "options": {
-      "server": "http://zigbee2mqtt.local:8080"
+      "server": null
     },
     "schema": {
       "server": "url"
